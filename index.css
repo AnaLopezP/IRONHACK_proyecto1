@@ -1,3 +1,7 @@
+#web {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 #titulo {
     font-size: 30px;
     font-weight: bold;
@@ -20,15 +24,18 @@
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
+    
 }
 
 #intro2 {
     font-size: 24px;
     width: 50%;
+    height: 350px;
     border:rgb(118, 90, 123) 2px solid;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
+    float: left;
 }
 #pag1 {
     text-align: left;
@@ -43,4 +50,11 @@
 #pag3 {
     text-align: left;
     font-size: 24px;
+}
+
+#foto1 {
+    display: flex;
+    width: 49%;
+    height: 350px;
+    align-items: center;
 }
