@@ -29,17 +29,26 @@
 
 #general {
     font-size: 24px;
-    height: 150%;
     border:rgb(118, 90, 123) 2px solid;
     margin-top: 20px;
-    margin-bottom: 5px;
     text-align: center;
     float: left;
 }
 
-#historia {
+#titgen {
+    font-weight: bold;
+    padding: 20px;
+    color: #754392;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-transform: uppercase;
+
+}
+
+#historia, #jugadores, #rol20, #basico {
     font-size: 24px;
-    height: 20%;
     border:rgb(118, 90, 123) 2px solid;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -50,35 +59,21 @@
     margin-right: 20px;
 }
 
-#jugadores {
-    font-size: 24px;
-    height: 20%;
-    border:rgb(118, 90, 123) 2px solid;
-    margin-top: 20px;
-    margin-bottom: 20px;
+#tithis, #titjug, #titrol, #titbas {
+    font-weight: bold;
+    padding: 20px;
+    background-color: rgb(228, 146, 243);
+    color: #754392;
     text-align: center;
-    align-items: center;
-    float: left;
-    margin-left: 20px;
+    margin-top: 20px;
     margin-right: 20px;
+    margin-left: 20px;
+    text-transform: uppercase;
 }
 
-#roll20 {
-    font-size: 24px;
-    height: 20%;
-    border:rgb(118, 90, 123) 2px solid;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    align-items: center;
-    float: left;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-#foto1 {
+#foto1, #foto2 {
     width: 49%;
-    height: 380px;
+    height: 500px;
     align-items: center;
 }
 
