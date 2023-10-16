@@ -1,0 +1,46 @@
+#titulo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: rgb(228, 146, 243);
+    color: #2c0742;
+    text-align: center;
+    margin-top: 20px;
+    border:rgb(118, 90, 123) 2px solid;
+    text-transform: uppercase;
+    
+}
+
+#intro {
+    text-align: center;
+    border:rgb(118, 90, 123) 2px solid;
+    height: 20%;
+    align-items: center;
+    font-size: 24px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#intro2 {
+    font-size: 24px;
+    width: 50%;
+    border:rgb(118, 90, 123) 2px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#pag1 {
+    text-align: left;
+    font-size: 24px;
+}
+
+#pag2 {
+    text-align: left;
+    font-size: 24px;
+}
+
+#pag3 {
+    text-align: left;
+    font-size: 24px;
+}
