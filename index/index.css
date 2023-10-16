@@ -55,6 +55,16 @@
 #foto1 {
     display: flex;
     width: 49%;
-    height: 350px;
+    height: 380px;
     align-items: center;
+}
+
+#footer {
+    font-size: 20px;
+    border:rgb(118, 90, 123) 2px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 20%;
+    background-color: rgb(228, 146, 243);
+    color: #2c0742;
 }
