@@ -29,7 +29,7 @@
             </div>
             <div id = atr>
                 <h3 id = titatr>Atributos</h3>
-                <p>Los atributos son los detalles del nivel de personaje, podemos decir que son sus características de Pokemon</p>
+                <p id = atrintro>Los atributos son los detalles del nivel de personaje, podemos decir que son sus características de Pokemon</p>
                 <li>PV: los puntos de vida</li>
                 <li>PH: los puntos de habilidad</li>
                 <li>Ataque físico: la fuerza física del personaje.</li>
@@ -42,11 +42,13 @@
                 <li>Crítico: este apartado es un tanto complejo, hablaremos de él más adelante.</li>
                 <li>Experiencia: una cantidad de puntos que permite subir de nivel</li>
                 <li>Notas: Si el personaje tiene una cualidad especial, como respirar bajo el agua, es importante escribirla aquí.</li>
-                <p>Si para una primera vez son demasiados atributos, recomendamos simplificarlo fusionando los ataques, las defensas, y la velocidad y evasión en uno. También se puede quitar el crítico.</p>
-                <p>Todos estos atributos es un número. Dependiendo del nivel del personaje, este número será mayor, y del mismo modo aumentará al subir de nivel. Pongamos la base en el nivel más bajo, el nivel 0.</p>
-                <p>En el nivel 0, todos los aributos menos el crítico, PV y PH es un dado sobre 4, y este número indicará la cantidad de dados que el personaje tiene en ese ámbito. Por ejemplo: pongamos que en ataque físico ha salido un 3. Si en algún momento el personaje se metiera en una pelea, tendría que tirar 3 dados que calificarían su rendimiento en esta. Para equilibrar los personajes, es obligatorio que tenga al menos un 1 y un 4. Normalmente, esta selección se hace de manera aleatoria, pero si el personaje tiene algo carácterístico, está bien definirlo a conciencia. Es decir, en este mismo ejemplo, si el personaje hubiera sido un boxeador, le pondríamos en ataque físico un 4 sin necesidad de hacerlo aleatoriamente.</p>
-                <p>En cuanto al PV y al PH es un número formado por tres partes: la base, la suerte y la especialidad. La base es el número que viene definido en cada nivel. En el nivel 0 es 10, y por cada nivel vamos sumando 5. La suerte es una tirada de 3 dados de 6 caras. En la <a href="pag3/pag3.html">Metodología de juego</a> profundizaremos en las tiradas de dados. Por último, la especialidad tiene que ver con el personaje. Si por su trasfondo o raza se puede justificar un mayor o menor número de PV y PH, el master es libre de cambiarlo.</p>
-                <p>El cítico es un número fijo que sube por nivel. En el nivel 0 es un 5, y por cada nivel va creciendo en uno. Este número hay que superarlo para hacer un crítico.</p>
+                <div id = explatr>
+                    <p>Si para una primera vez son demasiados atributos, recomendamos simplificarlo fusionando los ataques, las defensas, y la velocidad y evasión en uno. También se puede quitar el crítico.</p>
+                    <p>Todos estos atributos es un número. Dependiendo del nivel del personaje, este número será mayor, y del mismo modo aumentará al subir de nivel. Pongamos la base en el nivel más bajo, el nivel 0.</p>
+                    <p>En el nivel 0, todos los aributos menos el crítico, PV y PH es un dado sobre 4, y este número indicará la cantidad de dados que el personaje tiene en ese ámbito. Por ejemplo: pongamos que en ataque físico ha salido un 3. Si en algún momento el personaje se metiera en una pelea, tendría que tirar 3 dados que calificarían su rendimiento en esta. Para equilibrar los personajes, es obligatorio que tenga al menos un 1 y un 4. Normalmente, esta selección se hace de manera aleatoria, pero si el personaje tiene algo carácterístico, está bien definirlo a conciencia. Es decir, en este mismo ejemplo, si el personaje hubiera sido un boxeador, le pondríamos en ataque físico un 4 sin necesidad de hacerlo aleatoriamente.</p>
+                    <p>En cuanto al PV y al PH es un número formado por tres partes: la base, la suerte y la especialidad. La base es el número que viene definido en cada nivel. En el nivel 0 es 10, y por cada nivel vamos sumando 5. La suerte es una tirada de 3 dados de 6 caras. En la <a href="pag3/pag3.html">Metodología de juego</a> profundizaremos en las tiradas de dados. Por último, la especialidad tiene que ver con el personaje. Si por su trasfondo o raza se puede justificar un mayor o menor número de PV y PH, el master es libre de cambiarlo.</p>
+                    <p>El cítico es un número fijo que sube por nivel. En el nivel 0 es un 5, y por cada nivel va creciendo en uno. Este número hay que superarlo para hacer un crítico.</p>
+                </div>
             </div>
             <div id = equipo>
                 <h3 id = titequipo>Equipo</h3>
@@ -57,16 +59,17 @@
                 <p>Las habilidades de un personaje serán decididas por el master, y tendrán un efecto sobre si mismo, sobre otros personaje, o sobre el ambiente. Las habilidades gastán PH, más o menos dependiendo de la complejidad, y si es una habilidad que afecte sobre un atributo, como el ataque, suma un número de dados a la base del mismo. Cada cierto número de niveles, generalmente 5, se añadirá una nueva habilidad.</p>
             </div>
         </div>
-        <div>
-            <h2>NPCs románticos</h2>
-            <p>Nos referimos a los NPCs románticos cuando hablamos de los personajes "ligables" por los jugadores. En <a href="pag3/pag3.html">Metodología de juego</a> detallamos más sobre estos persoajes y sus interacciones con los jugadores, pero a la hora de crear la ficha simplemente añadimos estos atributos: Carisma, belleza, economía y torpeza. Estos atributos se determinan de la misma manera que los primero que hemos explicado.</p>
+        <div id = npcsrom>
+            <h2 id = titnpcsrom>NPCs románticos</h2>
+            <p id = textnpcsrom>Nos referimos a los NPCs románticos cuando hablamos de los personajes "ligables" por los jugadores. En <a href="pag3/pag3.html">Metodología de juego</a> detallamos más sobre estos persoajes y sus interacciones con los jugadores, pero a la hora de crear la ficha simplemente añadimos estos atributos: Carisma, belleza, economía y torpeza. Estos atributos se determinan de la misma manera que los primero que hemos explicado.</p>
         </div>
-        <div>
-            <h2>Personajes jugables</h2>
-            <p>Los personajes jugables son los personajes que van a ser controlados por los jugadores. Estos personajes tienen la misma ficha que un NPC romántico, menos por tres apartado que vamos a añadir en los datos básicos: el nombre del jugador al que pertenece ese personaje, su crush y su arista. Estos dos últimos son los NPCs románticos relacionados con él.</p>
-            <p>Por otra parte, la creación física y psicológica del personajes es total responsabilidad del jugador. Es su momento para crear un personaje trágico, uno sarcástico, o uno vacilón. Otros apartados que serán rellenados por el jugador son la belleza, economía, torpeza y carisma, así como su equipo.</p>
+        <div id = jugables>
+            <h2 id = titjugables>Personajes jugables</h2>
+            <div id = textjugables>
+                <p>Los personajes jugables son los personajes que van a ser controlados por los jugadores. Estos personajes tienen la misma ficha que un NPC romántico, menos por tres apartado que vamos a añadir en los datos básicos: el nombre del jugador al que pertenece ese personaje, su crush y su arista. Estos dos últimos son los NPCs románticos relacionados con él.</p>
+                <p>Por otra parte, la creación física y psicológica del personajes es total responsabilidad del jugador. Es su momento para crear un personaje trágico, uno sarcástico, o uno vacilón. Otros apartados que serán rellenados por el jugador son la belleza, economía, torpeza y carisma, así como su equipo.</p>
+            </div>
         </div>
-        <p>Con esto, ¡hemos terminado de crear los personajes! Esta es, en mi opinión, la parte más complicada. Antes de acabar este apartado, comentar que las fichas se pueden escribir en <a href="https://roll20.net/">Roll20</a>. Si no se quiere utilizar estas fichas o metodología, hay un montón de opciones que se pueden adaptar a vuesto mundo.</p>
     </body>
     <footer id = footer>
         <p>¡Gracias por visitar la guía de Paradom! Más abajo dejamos unos links para que apoyen a los creadores</p>
