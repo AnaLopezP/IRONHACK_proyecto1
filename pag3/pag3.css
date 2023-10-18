@@ -1,0 +1,91 @@
+#pag3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#titulo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: rgb(228, 146, 243);
+    color: #2c0742;
+    text-align: center;
+    margin-top: 20px;
+    border:rgb(118, 90, 123) 2px solid;
+    text-transform: uppercase;
+    
+}
+
+/* #general, #tiradas, #titexitos, #titenfren {
+    font-size: 24px;
+    border:rgb(118, 90, 123) 2px solid;
+    margin-top: 20px;
+    float: left; */
+
+
+#titgen, #tiradas, #titexitos, #titenfren {
+    font-weight: bold;
+    padding: 20px;
+    color: #754392;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+#intro {
+    font-size: 24px;
+    border:rgb(118, 90, 123) 2px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    float: left;
+}
+
+#textgen, #textiradas, #exitos, #enfrentadas {
+    font-size: 24px;
+    border:rgb(118, 90, 123) 2px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    align-items: center;
+    float: left;
+    text-align: center;
+}
+
+#textintro, #textgen, #atrintro, #explatr, #equipo, #habilidades, #textnpcsrom, #textjugables {
+    text-align: center;
+}
+
+#titdatbas, #titatr, #titequipo, #tithabilidades {
+    font-weight: bold;
+    padding: 20px;
+    background-color: rgb(228, 146, 243);
+    color: #754392;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+#foto1, #foto2 {
+    width: 300px;
+    height: 400px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 30px;
+}
+
+#footer {
+    font-size: 20px;
+    border:rgb(118, 90, 123) 2px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 200px;
+    background-color: rgb(228, 146, 243);
+    color: #2c0742;
+}
