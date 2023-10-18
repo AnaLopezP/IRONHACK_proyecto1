@@ -15,17 +15,6 @@
     
 }
 
-#intro {
-    text-align: center;
-    border:rgb(118, 90, 123) 2px solid;
-    height: 20%;
-    align-items: center;
-    font-size: 24px;
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
-}
 
 #general {
     font-size: 24px;
@@ -47,7 +36,7 @@
 
 }
 
-#historia, #jugadores, #rol20, #basico {
+#historia, #jugadores, #rol20, #basico, #intro {
     font-size: 24px;
     border:rgb(118, 90, 123) 2px solid;
     margin-top: 20px;

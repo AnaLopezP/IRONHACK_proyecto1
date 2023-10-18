@@ -5,55 +5,57 @@
         <meta charset="UTF-8">
     </head>
     <body>
-        <h1>Personajes jugables y NPCs</h1>
-        <div>
-            <p>Hemos mencionado anteriormente que los personajes son la parte más importante de una partida de rol, pero ¿Cómo creo un personaje? Vamos a crear fichas para dos tipos: los personajes jugables y los NPCs</p>
+        <h1 id = titulo>Personajes jugables y NPCs</h1>
+        <div id = intro>
+            <p id = textintro>Hemos mencionado anteriormente que los personajes son la parte más importante de una partida de rol, pero ¿Cómo creo un personaje? Vamos a crear fichas para dos tipos: los personajes jugables y los NPCs</p>
         </div>
-        <div>
-            <h2>Los NPCs</h2>
-            <p>Los NPCs son los personajes van a ser controlado en su totalidad por el master. Pero cuidado, no por eso siempre saldrán las cosas como ellos quieren. Dentro de los NPCs, hay un tipo más especial, los NPCs románticos.</p>
-            <p>Empecemos por lo general, lo que tienen todos. La ficha va a estar dividida en cuatro secciones: los datos básicos, los atributos, el equipo y las habilidades.</p>
-        </div>
-        <div>
-            <h3>Datos Básicos</h3>
-            <li>Nombre: nombre del personaje</li>
-            <li>Edad: edad del personaje</li>
-            <li>Personalidad: detalles importantes sobre la personalidad del personaje (encantador, manipulador, egoista, adorable...). No pasa nada si no se tiene una idea exacta, ya que a lo largo de las partidas se irá detallando con naturalidad.</li>
-            <li>Estudios/trabajo: Cual es la ocupación actual más importante del personaje</li>
-            <li>Descripción física: Descripción física del personaje. Puede ser una foto, sugiero <a href="https://www.artbreeder.com/create">Artbreeder</a> para crear fotos por inteligencia artificial.</li>
-            <li>Historia: Historia del personaje. Puede ser una historia corta, o una historia larga. Lo importante es que el master sepa de donde viene el personaje.</li>
-            <li>Relación: si tiene relación con otro personaje de la historia, es importante ponerlo. Por ejemplo, si es el hermano de un jugador.</li>
-            <li>Raza: dentro de un mundo de fantasía, puede ser lo que quieras</li>
-            <li>Nivel: El nivel del personaje está directamente relacionado con los atributos.</li>
-        </div>
-        <div>
-            <h3>Atributos</h3>
-            <p>Los atributos son los detalles del nivel de personaje, podemos decir que son sus características de Pokemon</p>
-            <li>PV: los puntos de vida</li>
-            <li>PH: los puntos de habilidad</li>
-            <li>Ataque físico: la fuerza física del personaje.</li>
-            <li>Ataque mágico: la fuerza de los hechizos del personaje.</li>
-            <li>Defensa física: la resistencia física del personaje.</li>
-            <li>Defensa mágica: la resistencia a la magia del personaje.</li>
-            <li>Velocidad: la velocidad del personaje.</li>
-            <li>Precisión: la puntería que tiene el personaje.</li>
-            <li>Evasión: la capacidad de esquivar del personaje</li>
-            <li>Crítico: este apartado es un tanto complejo, hablaremos de él más adelante.</li>
-            <li>Experiencia: una cantidad de puntos que permite subir de nivel</li>
-            <li>Notas: Si el personaje tiene una cualidad especial, como respirar bajo el agua, es importante escribirla aquí.</li>
-            <p>Si para una primera vez son demasiados atributos, recomendamos simplificarlo fusionando los ataques, las defensas, y la velocidad y evasión en uno. También se puede quitar el crítico.</p>
-            <p>Todos estos atributos es un número. Dependiendo del nivel del personaje, este número será mayor, y del mismo modo aumentará al subir de nivel. Pongamos la base en el nivel más bajo, el nivel 0.</p>
-            <p>En el nivel 0, todos los aributos menos el crítico, PV y PH es un dado sobre 4, y este número indicará la cantidad de dados que el personaje tiene en ese ámbito. Por ejemplo: pongamos que en ataque físico ha salido un 3. Si en algún momento el personaje se metiera en una pelea, tendría que tirar 3 dados que calificarían su rendimiento en esta. Para equilibrar los personajes, es obligatorio que tenga al menos un 1 y un 4. Normalmente, esta selección se hace de manera aleatoria, pero si el personaje tiene algo carácterístico, está bien definirlo a conciencia. Es decir, en este mismo ejemplo, si el personaje hubiera sido un boxeador, le pondríamos en ataque físico un 4 sin necesidad de hacerlo aleatoriamente.</p>
-            <p>En cuanto al PV y al PH es un número formado por tres partes: la base, la suerte y la especialidad. La base es el número que viene definido en cada nivel. En el nivel 0 es 10, y por cada nivel vamos sumando 5. La suerte es una tirada de 3 dados de 6 caras. En la <a href="pag3/pag3.html">Metodología de juego</a> profundizaremos en las tiradas de dados. Por último, la especialidad tiene que ver con el personaje. Si por su trasfondo o raza se puede justificar un mayor o menor número de PV y PH, el master es libre de cambiarlo.</p>
-            <p>El cítico es un número fijo que sube por nivel. En el nivel 0 es un 5, y por cada nivel va creciendo en uno. Este número hay que superarlo para hacer un crítico.</p>
-        </div>
-        <div>
-            <h3>Equipo</h3>
-            <p>El equipo es un par de armas y armaduras. Cada personaje tendrá un arma, que puede ser: espada, hacha, lanza, daga, arco y báculo. Las armas mejorarán el ataque de los personajes, la cantidad a deisión del master. La armadura por otra parte, mejorará la defensa.</p>
-        </div>
-        <div>
-            <h3>Habilidades</h3>
-            <p>Las habilidades de un personaje serán decididas por el master, y tendrán un efecto sobre si mismo, sobre otros personaje, o sobre el ambiente. Las habilidades gastán PH, más o menos dependiendo de la complejidad, y si es una habilidad que afecte sobre un atributo, como el ataque, suma un número de dados a la base del mismo. Cada cierto número de niveles, generalmente 5, se añadirá una nueva habilidad.</p>
+        <div id = general>
+            <h2 id = titgen>Los NPCs</h2>
+            <div id = textgen>
+                <p>Los NPCs son los personajes van a ser controlado en su totalidad por el master. Pero cuidado, no por eso siempre saldrán las cosas como ellos quieren. Dentro de los NPCs, hay un tipo más especial, los NPCs románticos.</p>
+                <p>Empecemos por lo general, lo que tienen todos. La ficha va a estar dividida en cuatro secciones: los datos básicos, los atributos, el equipo y las habilidades.</p>
+            </div>
+            <div id = datbas>
+                <h3 id = titdatbas>Datos Básicos</h3>
+                <li>Nombre: nombre del personaje</li>
+                <li>Edad: edad del personaje</li>
+                <li>Personalidad: detalles importantes sobre la personalidad del personaje (encantador, manipulador, egoista, adorable...). No pasa nada si no se tiene una idea exacta, ya que a lo largo de las partidas se irá detallando con naturalidad.</li>
+                <li>Estudios/trabajo: Cual es la ocupación actual más importante del personaje</li>
+                <li>Descripción física: Descripción física del personaje. Puede ser una foto, sugiero <a href="https://www.artbreeder.com/create">Artbreeder</a> para crear fotos por inteligencia artificial.</li>
+                <li>Historia: Historia del personaje. Puede ser una historia corta, o una historia larga. Lo importante es que el master sepa de donde viene el personaje.</li>
+                <li>Relación: si tiene relación con otro personaje de la historia, es importante ponerlo. Por ejemplo, si es el hermano de un jugador.</li>
+                <li>Raza: dentro de un mundo de fantasía, puede ser lo que quieras</li>
+                <li>Nivel: El nivel del personaje está directamente relacionado con los atributos.</li>
+            </div>
+            <div id = atr>
+                <h3 id = titatr>Atributos</h3>
+                <p>Los atributos son los detalles del nivel de personaje, podemos decir que son sus características de Pokemon</p>
+                <li>PV: los puntos de vida</li>
+                <li>PH: los puntos de habilidad</li>
+                <li>Ataque físico: la fuerza física del personaje.</li>
+                <li>Ataque mágico: la fuerza de los hechizos del personaje.</li>
+                <li>Defensa física: la resistencia física del personaje.</li>
+                <li>Defensa mágica: la resistencia a la magia del personaje.</li>
+                <li>Velocidad: la velocidad del personaje.</li>
+                <li>Precisión: la puntería que tiene el personaje.</li>
+                <li>Evasión: la capacidad de esquivar del personaje</li>
+                <li>Crítico: este apartado es un tanto complejo, hablaremos de él más adelante.</li>
+                <li>Experiencia: una cantidad de puntos que permite subir de nivel</li>
+                <li>Notas: Si el personaje tiene una cualidad especial, como respirar bajo el agua, es importante escribirla aquí.</li>
+                <p>Si para una primera vez son demasiados atributos, recomendamos simplificarlo fusionando los ataques, las defensas, y la velocidad y evasión en uno. También se puede quitar el crítico.</p>
+                <p>Todos estos atributos es un número. Dependiendo del nivel del personaje, este número será mayor, y del mismo modo aumentará al subir de nivel. Pongamos la base en el nivel más bajo, el nivel 0.</p>
+                <p>En el nivel 0, todos los aributos menos el crítico, PV y PH es un dado sobre 4, y este número indicará la cantidad de dados que el personaje tiene en ese ámbito. Por ejemplo: pongamos que en ataque físico ha salido un 3. Si en algún momento el personaje se metiera en una pelea, tendría que tirar 3 dados que calificarían su rendimiento en esta. Para equilibrar los personajes, es obligatorio que tenga al menos un 1 y un 4. Normalmente, esta selección se hace de manera aleatoria, pero si el personaje tiene algo carácterístico, está bien definirlo a conciencia. Es decir, en este mismo ejemplo, si el personaje hubiera sido un boxeador, le pondríamos en ataque físico un 4 sin necesidad de hacerlo aleatoriamente.</p>
+                <p>En cuanto al PV y al PH es un número formado por tres partes: la base, la suerte y la especialidad. La base es el número que viene definido en cada nivel. En el nivel 0 es 10, y por cada nivel vamos sumando 5. La suerte es una tirada de 3 dados de 6 caras. En la <a href="pag3/pag3.html">Metodología de juego</a> profundizaremos en las tiradas de dados. Por último, la especialidad tiene que ver con el personaje. Si por su trasfondo o raza se puede justificar un mayor o menor número de PV y PH, el master es libre de cambiarlo.</p>
+                <p>El cítico es un número fijo que sube por nivel. En el nivel 0 es un 5, y por cada nivel va creciendo en uno. Este número hay que superarlo para hacer un crítico.</p>
+            </div>
+            <div id = equipo>
+                <h3 id = titequipo>Equipo</h3>
+                <p>El equipo es un par de armas y armaduras. Cada personaje tendrá un arma, que puede ser: espada, hacha, lanza, daga, arco y báculo. Las armas mejorarán el ataque de los personajes, la cantidad a deisión del master. La armadura por otra parte, mejorará la defensa.</p>
+            </div>
+            <div id = habilidades>
+                <h3 id = tithabilidades>Habilidades</h3>
+                <p>Las habilidades de un personaje serán decididas por el master, y tendrán un efecto sobre si mismo, sobre otros personaje, o sobre el ambiente. Las habilidades gastán PH, más o menos dependiendo de la complejidad, y si es una habilidad que afecte sobre un atributo, como el ataque, suma un número de dados a la base del mismo. Cada cierto número de niveles, generalmente 5, se añadirá una nueva habilidad.</p>
+            </div>
         </div>
         <div>
             <h2>NPCs románticos</h2>
