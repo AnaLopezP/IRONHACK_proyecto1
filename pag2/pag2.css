@@ -55,7 +55,7 @@
     margin-right: 20px;
 }
 
-#textintro, #textgen, #atrintro, #explatr, #equipo, #habilidades, #textnpcsrom, #textjugables, #fin {
+#textintro, #textgen, #atrintro, #explatr, #equipo, #habilidades, #textnpcsrom, #textjugables {
     text-align: center;
 }
 
@@ -69,6 +69,15 @@
     margin-right: 20px;
     margin-left: 20px;
     text-transform: uppercase;
+}
+
+#foto1, #foto2 {
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 30px;
 }
 
 #footer {
