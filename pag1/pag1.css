@@ -36,18 +36,27 @@
 
 }
 
-#historia, #jugadores, #rol20, #basico, #intro {
+#intro {
     font-size: 24px;
     border:rgb(118, 90, 123) 2px solid;
     margin-top: 20px;
     margin-bottom: 20px;
-    text-align: center;
+    padding: 20px;
+    align-items: center;
+    float: left;
+}
+
+#basico, #historia, #jugadores, #rol20 {
+    font-size: 24px;
+    border:rgb(118, 90, 123) 2px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
     align-items: center;
     float: left;
     margin-left: 20px;
     margin-right: 20px;
 }
-
 #tithis, #titjug, #titrol, #titbas {
     font-weight: bold;
     padding: 20px;

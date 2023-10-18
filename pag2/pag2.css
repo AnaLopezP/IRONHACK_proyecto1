@@ -35,7 +35,17 @@
 
 }
 
-#datbas, #atr, #equipo, #habilidades, #intro {
+#intro {
+    font-size: 24px;
+    border:rgb(118, 90, 123) 2px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    align-items: center;
+    float: left;
+}
+
+#datbas, #atr, #equipo, #habilidades {
     font-size: 24px;
     border:rgb(118, 90, 123) 2px solid;
     margin-top: 20px;
